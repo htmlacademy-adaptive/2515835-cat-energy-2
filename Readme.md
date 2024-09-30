@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Камилла Тувакова](https://up.htmlacademy.ru/adaptive-individual/2/user/2515835).
-* Наставник: `Неизвестно`.
+* Наставник: [Николай Котиков](https://htmlacademy.ru/profile/niklcat)
 
 ---
 
