@@ -15,35 +15,35 @@
 
 <body class="page__body">
   <header class="main-header">
-    <a class="main-header__logo" href="#">
+    <a class="main-header-logo" href="#">
       <span class="visually-hidden" hidden>Логотип</span>
       <picture>
         <source width="202" height="59" media="(min-width: 1300px)" type="image/svg+xml" srcset="images/logo-desktop.svg">
         <source width="174" height="50" media="(min-width: 768px)" type="image/svg+xml" srcset="images/logo-tablet.svg">
-        <img class="main-header__logo-img" src="images/logo-mobile.svg" width="191" height="39" alt="Магазин функционального питания для котов.">
+        <img class="main-header-logo-img" src="images/logo-mobile.svg" width="191" height="39" alt="Магазин функционального питания для котов.">
       </picture>
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">
         <span class="visually-hidden" hidden>Открыть меню</span>
         <svg class="main-nav__icon main-nav__icon--menu" viewBox="0 0 24 24" width="24" height="24">
-          <use href="../icons/stack.svg#icon-mobile-menu">
+          <use href="../icons/stack.svg#icon-mobile-menu"></use>
         </svg>
       </button>
       <div class="main-nav__container">
         <ul class="main-nav__list">
           <li class="main-nav__item main-nav__item--active">
-            <a href="index.html">
+            <a class="main-nav__link" href="index.html">
               Главная
             </a>
           </li>
           <li class="main-nav__item">
-            <a href="catalog.html">
+            <a class="main-nav__link" href="catalog.html">
               Каталог продукции
             </a>
           </li>
           <li class="main-nav__item">
-            <a href="#">
+            <a class="main-nav__link" href="#">
               Подбор программы
             </a>
           </li>
@@ -330,7 +330,7 @@
     </section>
   </main>
   <footer class="page-footer">
-    <section class="page-footer__adress adress">
+    <section class="page-footer__adress">
       <h2 class="visually-hidden">Адрес магазина</h2>
       <div class="adress__content-wrapper">
         <div class="adress__content adress__content--index ">
@@ -347,29 +347,29 @@
       </div>
     </section>
     <div class="page-footer__bottom-block">
-      <a class="page-footer__logo-link" href="#" aria-label="Вы уже здесь">
-        <svg class="page-footer-logo-img" loading="lazy" src="../source/images/page-footer-logo.svg" width="101" height="18">
+      <a class="page-footer-logo-link" href="#" aria-label="Вы уже здесь">
+        <svg class="page-footer-logo-img" src="../source/images/page-footer-logo.svg" width="101" height="18">
         </svg>
       </a>
       <ul class="page-footer-social social">
         <li class="social__item social__item--vk">
           <a class="social__link social__link--vk" href="#" aria-label="В контакте">
             <svg width="28" height="22" viewBox="0 0 28 22">
-              <use href="../icons/stack.svg#vk">
+              <use href="../icons/stack.svg#vk"></use>
             </svg>
           </a>
         </li>
         <li class="social__item social__item--yt">
           <a class="social__link social__link--yt" href="#" aria-label="You-tube">
             <svg width="28" height="22" viewBox="0 0 28 22">
-              <use href="../icons/stack.svg#youtube">
+              <use href="../icons/stack.svg#youtube"></use>
             </svg>
           </a>
         </li>
         <li class="social__item social__item--tg">
           <a class="social__link social__link--tg" href="#" aria-label="Telegram">
             <svg width="28" height="22" viewBox="0 0 28 22">
-              <use href="../icons/stack.svg#telegram">
+              <use href="../icons/stack.svg#telegram"></use>
             </svg>
           </a>
         </li>
@@ -377,7 +377,7 @@
       <p class="page-footer__developer developer">
         <a class="developer__link developer__link--text" href="#" aria-label="Перейти на сайт разработчика">HTML Academy
           <svg width="27" height="35" viewBox="0 0 27 35">
-            <use href="../icons/stack.svg#logo-html">
+            <use href="../icons/stack.svg#logo-html"></use>
           </svg>
         </a>
       </p>
