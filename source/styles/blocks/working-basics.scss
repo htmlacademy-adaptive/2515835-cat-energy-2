@@ -1,13 +1,64 @@
+.working-basics {
+  margin: 0 20px 42px;
+}
+
+.working-basics__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
 .working-basics__title {
   font-family: "Oswald", sans-serif;
   font-size: 36px;
   line-height: 40px;
   color: #000000;
+  margin: 0 0 28px;
 }
 
 .working-basics__description {
   font-family: "Lato", sans-serif;
   font-size: 14px;
+  font-weight: 400;
   line-height: 18px;
   color: #444444;
+}
+
+.working-basics__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+  padding-left: 80px;
+  margin-bottom: 20px;
+}
+
+.working-basics__item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background: #68b738 no-repeat center;
+  background-size: 50px;
+}
+
+.working-basics__item--healthy::before {
+  background-image: url("../../icons/stack.svg#advantage-leaf");
+}
+
+.working-basics__item--ease::before {
+  background-image: url("../../icons/stack.svg#advantage-powder");
+}
+
+.working-basics__item--portion::before {
+  background-image: url("../../icons/stack.svg#advantage-dining");
+}
+
+.working-basics__item--result::before {
+  background-image: url("../../icons/stack.svg#advantage-clock");
 }

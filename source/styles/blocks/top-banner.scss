@@ -1,8 +1,48 @@
+.top-banner {
+  width: 100%;
+  position: relative;
+  min-height: 480px;
+}
+
+.top-banner::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 302px;
+  background: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../../images/index-background-desktop-mobile@2x.png");
+  background-size: contain;
+  width: 100%;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-position: center top;
+  z-index: -10;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.top-banner__link {
+  width: 280px;
+  margin: 0 20px;
+  margin-top: 138px;
+  min-height: 40px;
+  padding: 10px 63px;
+  list-style: none;
+}
+
+
 .top-banner__title {
+  font-weight: 400;
   font-family: "Oswald", sans-serif;
   font-size: 36px;
   line-height: 36px;
   color: #ffffff;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .top-banner__slogan {
@@ -10,4 +50,7 @@
   font-size: 14px;
   line-height: 14px;
   color: #ffffff;
+  margin: 0 0 29px;
+  text-align: center;
+  text-transform: uppercase;
 }
