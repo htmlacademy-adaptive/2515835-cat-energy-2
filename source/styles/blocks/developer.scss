@@ -1,0 +1,14 @@
+.developer__link {
+  fill: #666666;
+  color: $base-color-text;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.developer__link:hover {
+  fill: #68b738;
+}
+
+.developer__link:active {
+  opacity: 0.3;
+}

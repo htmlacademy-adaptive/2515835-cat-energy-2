@@ -1,0 +1,33 @@
+.slider__btn {
+  width: 4px;
+  height: 100%;
+  background-color: #666666;
+  border: none;
+  border-radius: 2px;
+  padding: 0;
+  position: absolute;
+  z-index: 30;
+  left: 138px;
+  outline: none;
+
+  @media (min-width: $tablet-width) {
+    left: 352px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 275px;
+  }
+}
+
+.slider__scale {
+  stroke: #666666;
+  color: #666666;
+  position: absolute;
+  top: 107px;
+  left: -18px;
+
+  @media (min-width: $tablet-width) {
+    top: 236px;
+    left: -18px;
+  }
+}

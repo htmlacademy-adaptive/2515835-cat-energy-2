@@ -1,11 +1,10 @@
 .action-button {
-  font-family: "Oswald", sans-serif;
-  color: #ffffff;
-  background-color: #68b738;
-  list-style: none;
-  text-transform: uppercase;
+  font-family: $oswald;
   text-align: center;
+  text-transform: uppercase;
   text-decoration: none;
+  color: $button-color-text;
+  background-color: $button-background;
   display: inline-block;
   border: none;
 }
@@ -26,4 +25,19 @@
 .action-button--small {
   font-size: 16px;
   line-height: 20px;
+}
+
+.action-button--grey {
+  background-color: #f2f2f2;
+  color: #444444;
+}
+
+.action-button--grey:hover {
+  background-color: #ebebeb;
+}
+
+.action-button--grey:active {
+  background-color: #ebebeb;
+  color: $base-color-text;
+  opacity: 0.3;
 }

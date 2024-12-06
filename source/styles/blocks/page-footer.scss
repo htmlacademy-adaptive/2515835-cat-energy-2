@@ -1,0 +1,123 @@
+.page-footer {
+  font-family: $lato;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+}
+
+.page-footer--catalog {
+  background-color: #f2f2f2;
+
+  @media (min-width: $desktop-width) {
+    padding-top: 3px;
+  }
+}
+
+.page-footer__bottom-block {
+  padding: 19px 20px;
+
+  @media (min-width: $tablet-width) {
+    padding: 60px 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 72px 110px;
+  }
+}
+
+.page-footer__list {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: start;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 142px;
+  }
+}
+
+.page-footer-social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    gap: 26px;
+  }
+
+  @media (min-width: $desktop-width) {
+    gap: 24px;
+  }
+}
+
+.social-list__item a {
+  display: flex;
+  align-items: end;
+}
+
+.page-footer__item {
+  margin: 0 auto;
+  padding: 18px 0;
+  border-bottom: 1px solid #d9d9d9;
+  width: 100%;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.page-footer__item:last-child {
+  border-bottom: none;
+  text-align: right;
+}
+
+.page-footer__logo-link:hover {
+  opacity: 0.8;
+}
+
+.page-footer__logo-link:active {
+  opacity: 0.6;
+}
+
+.page-footer__developer {
+  display: flex;
+  gap: 140px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    gap: 23px;
+    margin-top: -10px;
+  }
+}
+
+.page-footer-logo-img {
+  width: 128px;
+  height: 24px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: -3px;
+  }
+}
