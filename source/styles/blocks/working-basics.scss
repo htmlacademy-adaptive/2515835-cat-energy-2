@@ -4,7 +4,7 @@
   counter-reset: section;
 
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     min-height: 380px;
   }
 
@@ -114,6 +114,17 @@
 
 .working-basics__item::before {
   content: "";
+  top: -2px;
+  left: 1px;
+  width: 60px;
+  height: 60px;
+  background-color: $button-background;
+  position: absolute;
+  display: block;
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+
 
   @media (min-width: $tablet-width) {
     counter-increment: section;
@@ -136,16 +147,6 @@
 
 .working-basics__item--healthy::before {
   background-image: url("../../icons/stack.svg#advantage-leaf");
-  top: -2px;
-  left: 1;
-  width: 60px;
-  height: 60px;
-  background-color: $button-background;
-  position: absolute;
-  display: block;
-  background-size: 32px 32px;
-  background-repeat: no-repeat;
-  background-position: center;
 
   @media (min-width: $tablet-width) {
     width: 80px;
@@ -156,16 +157,6 @@
 
 .working-basics__item--ease::before {
   background-image: url("../../icons/stack.svg#advantage-powder");
-  top: -2px;
-  left: 1;
-  width: 60px;
-  height: 60px;
-  background-color: $button-background;
-  position: absolute;
-  display: block;
-  background-size: 32px 32px;
-  background-repeat: no-repeat;
-  background-position: center;
 
   @media (min-width: $tablet-width) {
     width: 80px;
@@ -176,16 +167,6 @@
 
 .working-basics__item--portion::before {
   background-image: url("../../icons/stack.svg#advantage-dining");
-  top: -2px;
-  left: 1;
-  width: 60px;
-  height: 60px;
-  background-color: $button-background;
-  position: absolute;
-  display: block;
-  background-size: 32px 32px;
-  background-repeat: no-repeat;
-  background-position: center;
 
   @media (min-width: $tablet-width) {
     width: 80px;
@@ -196,16 +177,6 @@
 
 .working-basics__item--result::before {
   background-image: url("../../icons/stack.svg#advantage-clock");
-  top: -2px;
-  left: 1;
-  width: 60px;
-  height: 60px;
-  background-color: $button-background;
-  position: absolute;
-  display: block;
-  background-size: 32px 32px;
-  background-repeat: no-repeat;
-  background-position: center;
 
   @media (min-width: $tablet-width) {
     width: 80px;

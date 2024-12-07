@@ -44,7 +44,7 @@
 }
 
 .additional-products__wrapper {
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     display: flex;
     gap: 80px;
   }

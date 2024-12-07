@@ -198,24 +198,10 @@
   width: 50%;
 }
 
-/* .demonstrating-example__img-wrapper {
-  display: block;
-  width: 200%;
-  transform: translateX(-50%);
-
-  @media (min-width: $tablet-width) {
-    transform: translateX(-60%);
-  }
-
-  @media (min-width: $desktop-width) {
-    transform: translateX(-284px);
-  }
-} */
-
 .demonstrating-example__img-wrapper {
   position: relative;
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     width: 560px;
     height: 512px;
   }
