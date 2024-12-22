@@ -87,6 +87,10 @@
   opacity: 0.3;
 }
 
+.main-nav--cross {
+  display: none;
+}
+
 .main-nav__item--active::after {
   @media (min-width: $tablet-width) {
     content: "";
@@ -124,3 +128,4 @@
     top: 39px;
   }
 }
+
