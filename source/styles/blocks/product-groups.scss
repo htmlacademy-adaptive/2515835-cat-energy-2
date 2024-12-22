@@ -91,9 +91,12 @@
 }
 
 .product-groups__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
   @media (min-width: $desktop-width) {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
   }
 }
@@ -131,6 +134,10 @@
   padding: 20px;
   margin-bottom: 20px;
   background-color: #f2f2f2;
+
+  @media (min-width: $desktop-width) {
+    margin-right: 20px;
+  }
 }
 
 .product-groups__wrapper {

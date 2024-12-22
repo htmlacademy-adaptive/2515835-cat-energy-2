@@ -173,6 +173,42 @@
   }
 }
 
+.demonstrating-example__button {
+  width: 4px;
+  height: 300px;
+  background-color: #666666;
+  border: none;
+  border-radius: 2px;
+  padding: 0;
+  position: absolute;
+  z-index: 30;
+  left: 165px;
+  outline: none;
+
+  @media (min-width: $tablet-width) {
+    height: 616px;
+    left: 389px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 562px;
+    left: 1160px;
+  }
+}
+
+.demonstrating-example__button-scale {
+  stroke: #666666;
+  color: #666666;
+  position: absolute;
+  top: 120px;
+  left: -18px;
+
+  @media (min-width: $tablet-width) {
+    top: 236px;
+    left: -18px;
+  }
+}
+
 .demonstrating-example__picture-before {
   overflow: hidden;
   width: 50%;
@@ -188,7 +224,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    transform: translateX(0);
+    transform: translateX(40%);
   }
 }
 
@@ -198,19 +234,17 @@
   width: 50%;
 }
 
-.demonstrating-example__img-wrapper {
-  position: relative;
+.demonstrating-example__cat-after {
+  display: block;
+  width: 200%;
+  transform: translateX(-50%);
 
   @media (min-width: $tablet-width) {
-    width: 560px;
-    height: 512px;
+    transform: translateX(-60%);
   }
 
   @media (min-width: $desktop-width) {
-    position: absolute;
-    left: 700px;
-    top: -130px;
-    transform: translateX(-300px);
+    transform: translateX(-75%);
   }
 }
 

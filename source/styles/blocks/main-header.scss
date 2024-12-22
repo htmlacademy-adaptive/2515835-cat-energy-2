@@ -76,10 +76,6 @@
   }
 }
 
-.main-header__icon--cross {
-  display: none;
-}
-
 .main-header__icon--burger {
   display: block;
 }
@@ -109,9 +105,6 @@
   }
 }
 
-.main-header__burger.main-header__burger--nojs {
-  display: none;
-}
 
 .main-nav--closed.main-nav--nojs {
   display: block;
@@ -132,4 +125,8 @@
   @media (min-width: $tablet-width) {
     display: block;
   }
+}
+
+.main-header__icon--cross {
+  display: none;
 }
