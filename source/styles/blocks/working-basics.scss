@@ -6,6 +6,7 @@
 
   @media (min-width: $tablet-width) {
     min-height: 380px;
+    margin-top: -38px;
   }
 
   @media (min-width: $desktop-width) {
@@ -15,7 +16,7 @@
 
 .working-basics__wrapper {
   min-height: 380px;
-  padding: 0 20px;
+  padding: 0 25px;
 
   @media (min-width: $tablet-width) {
     min-height: 380px;
@@ -35,15 +36,17 @@
   line-height: 40px;
   color: $base-color-text-black;
   font-weight: 400;
-  margin: 0;
-  margin-bottom: 43px;
-  padding-top: 1px;
-  padding-left: 1px;
+  margin: -19px 0 43px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 31px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 80px;
+    margin-left: 64px;
   }
 }
 
@@ -80,9 +83,13 @@
 
   @media (min-width: $tablet-width) {
     padding-right: 0;
-    padding-top: 151px;
-    min-height: 280px;
+    padding-top: 153px;
     padding-left: 0;
+    min-width: 204px;
+    height: 72px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
   }
 
   @media (min-width: $desktop-width) {
@@ -90,8 +97,43 @@
     padding: 151px 22px 57px 0;
     min-height: 280px;
     padding-right: 0;
+    margin-left: 63px;
   }
 }
+
+.working-basics__description--leaf {
+  @media (min-width: $tablet-width) {
+    width: 204px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+    margin-left: 64px;
+  }
+}
+
+.working-basics__description--eat {
+  @media (min-width: $tablet-width) {
+    width: 207px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+    margin-left: 65px;
+  }
+}
+
+.working-basics__description--time {
+  @media (min-width: $tablet-width) {
+    width: 240px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+    margin-left: 66px;
+  }
+}
+
 
 .working-basics__description::before {
   @media (min-width: $tablet-width) {
@@ -111,6 +153,10 @@
   @media (min-width: $desktop-width) {
     right: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    left: 180px;
+  }
 }
 
 .working-basics__item {
@@ -119,7 +165,7 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-    min-height: 280px;
+    height: 280px;
     position: relative;
   }
 
@@ -131,8 +177,8 @@
 
 .working-basics__item::before {
   content: "";
-  top: -2px;
-  left: 1px;
+  top: -4px;
+  left: -1px;
   width: 60px;
   height: 60px;
   background-color: $button-background;
@@ -150,6 +196,11 @@
     width: 80px;
     height: 80px;
     top: 40px;
+    left: 1px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 64px;
   }
 }
 
@@ -160,6 +211,11 @@
     width: 80px;
     height: 80px;
     top: 40px;
+    left: 2px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 65px;
   }
 }
 
@@ -170,6 +226,11 @@
     width: 80px;
     height: 80px;
     top: 40px;
+    left: 1px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 66px;
   }
 }
 
@@ -180,5 +241,10 @@
     width: 80px;
     height: 80px;
     top: 40px;
+    left: 2px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 67px;
   }
 }

@@ -12,6 +12,8 @@
     font-size: 20px;
     line-height: 20px;
     min-height: 497px;
+    margin-bottom: 10px;
+    margin-top: 50px;
   }
 }
 
@@ -22,16 +24,20 @@
   height: 302px;
   background: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../../images/index-background-desktop-mobile@2x.png");
   background-size: contain;
-  width: 100%;
+  width: 320px;
   background-repeat: no-repeat;
   top: 0;
-  left: 0;
+  left: 4px;
   right: 0;
   background-position: center top;
   z-index: -10;
 
   @media (min-width: $tablet-width) {
     display: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 0;
   }
 }
 
@@ -66,18 +72,18 @@
 }
 
 .top-banner__title {
+  font-family: $oswald;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
   text-align: center;
-  margin: 0;
-  margin-bottom: 25px;
+  margin: 1px 0 25px;
 
   @media (min-width: $tablet-width) {
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
-    margin-top: 0;
+    margin-top: 4px;
     color: #000000;
     text-align: start;
     width: 414px;
@@ -86,15 +92,14 @@
 
   @media (min-width: $desktop-width) {
     text-align: start;
-    margin-top: 0;
+    margin-top: -70px;
+    margin-left: 67px;
   }
 }
 
 .top-banner__slogan {
   font-family: "Oswald", sans-serif;
   text-align: center;
-  margin: 0 auto;
-  margin-right: 2px;
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
@@ -102,14 +107,15 @@
   @media (min-width: $tablet-width) {
     color: #000000;
     text-align: start;
-    margin-bottom: 21px;
+    margin-bottom: 22px;
     font-size: 20px;
     line-height: 20px;
   }
 
   @media (min-width: $desktop-width) {
     text-align: start;
-    margin-top: 0;
+    margin-bottom: 100px;
+    margin-left: 65px;
   }
 }
 
@@ -117,7 +123,7 @@
   z-index: 2;
   position: absolute;
   top: 167px;
-  left: 20px;
+  left: 24px;
 
   @media (min-width: $tablet-width) {
     position: static;
@@ -128,24 +134,21 @@
 
   @media (min-width: $desktop-width) {
     padding-left: 0;
-    top: -54px;
-    left: 559px;
+    top: -120px;
+    left: 620px;
     position: absolute;
   }
 }
 
 .top-banner__link {
-  margin: 0 20px;
-  margin-top: 138px;
-  font-size: 16px;
-  line-height: 20px;
-  padding: 10px 63px;
+  margin: 112px 24px 0;
+  padding: 9px 64px 8px;
 
   @media (min-width: $tablet-width) {
     margin: 0;
     position: absolute;
-    top: 257px;
-    left: 119px;
+    top: 262px;
+    left: 120px;
     font-size: 20px;
     width: 245px;
     padding: 16px 0;
@@ -154,7 +157,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    top: 260px;
-    left: 190px;
+    top: 193px;
+    left: 252px;
   }
 }

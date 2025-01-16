@@ -3,31 +3,43 @@
 
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 35px;
+    margin-bottom: 26px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-bottom: 51px;
+    margin-bottom: 110px;
+    width: 1440px;
   }
 }
 
 .main-header__container {
   @media (min-width: $tablet-width) {
-    padding: 25px 34px 0 30px;
+    padding: 4px 34px 0 31px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 23px;
+    margin-left: -3px;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 55px 110px 29px;
+    padding: 50px 173px 29px;
+    margin-top: 5px;
+    margin-right: 50px;
+  }
+}
+
+.main-header-logo {
+  @media (min-width: $desktop-width) {
+    margin-bottom: 5px;
+    margin-left: 5px;
   }
 }
 
 .main-header__logo-container {
   display: flex;
   justify-content: space-between;
-  padding: 13px 21px 14px 20px;
+  padding: 2px 25px 16px 23px;
   align-items: center;
   position: relative;
   margin-bottom: -3px;
@@ -86,12 +98,13 @@
 
 .main-header__burger--active .main-header__icon--cross {
   display: block;
+  padding-left: 7px;
 }
 
 .main-header--cat::before {
   @media (min-width: $desktop-width) {
     content: "";
-    width: 50%;
+    width: 720px;
     height: 694px;
     background:
       linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
@@ -100,7 +113,7 @@
     background-size: cover;
     position: absolute;
     top: 0;
-    right: -6px;
+    right: 71px;
     z-index: -10;
   }
 }

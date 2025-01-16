@@ -22,6 +22,8 @@
   @media (min-width: $desktop-width) {
     width: 245px;
     min-height: 288px;
+    margin-right: 63px;
+    margin-top: -1px;
     flex-direction: row;
     background:
       linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
@@ -72,8 +74,8 @@
   @media (min-width: $desktop-width) {
     margin: 0;
     padding-top: 185px;
-    padding-left: 40px;
-    width: auto;
+    padding-left: 48px;
+    width: 161px;
     padding-right: 39px;
     text-align: center;
   }

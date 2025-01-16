@@ -1,14 +1,16 @@
 .demonstrating-example {
   background-color: #eaeaea;
   margin: 0 auto;
-  width: 100%;
+  width: 320px;
 
   @media (min-width: $tablet-width) {
     background: linear-gradient(0deg, #eaeaea 43%, #ffffff 40%);
+    width: 768px;
   }
 
   @media (min-width: $desktop-width) {
     background: linear-gradient(0deg, #eaeaea calc(100% - 134px), #ffffff 20%);
+    width: 1440px;
   }
 }
 
@@ -31,30 +33,34 @@
   line-height: 40px;
   color: $base-color-text-black;
   font-weight: 400;
-  margin: 0;
   margin-bottom: 40px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 60px;
+    padding: 2px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-bottom: 76px;
+    margin-bottom: 31px;
+    margin-left: 1px;
   }
 }
 
 .demonstrating-example__text-container {
-  margin-bottom: 19px;
+  margin-bottom: 24px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 104px;
+  }
 }
 
 .demonstrating-example__promo-text {
   font-family: $lato;
   font-size: 14px;
   line-height: 18px;
-  margin: 0;
-  margin-bottom: 20px;
+  margin: 40px 0 20px;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -65,10 +71,13 @@
   @media (min-width: $desktop-width) {
     margin-bottom: 69px;
     width: 433px;
+    margin-left: 0;
   }
 }
 
 .demonstrating-example__expenses-container {
+  margin-left: -40px;
+
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
@@ -114,11 +123,14 @@
   margin-bottom: 34px;
 
   @media (min-width: $tablet-width) {
-    gap: 43px;
+    gap: 36px;
+    margin: -1px 2px -1px -6px;
   }
 
   @media (min-width: $desktop-width) {
     margin-bottom: 50px;
+    margin-left: 1px;
+    gap: 40px;
   }
 }
 
@@ -128,7 +140,8 @@
   line-height: 20px;
   color: $base-color-text-black;
   width: 186px;
-  margin: 0 auto;
+  margin-left: 87px;
+  margin-top: -3px;
   flex-wrap: wrap;
   display: flex;
   gap: 3px;
@@ -145,6 +158,8 @@
     display: flex;
     width: auto;
     gap: 65px;
+    margin-left: 41px;
+    margin-bottom: 5px;
   }
 }
 
@@ -169,30 +184,35 @@
   justify-content: space-between;
 
   @media (min-width: $tablet-width) {
-    margin: 0 4px;
+    margin: 3px 4px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: -160px -53px;
   }
 }
 
 .demonstrating-example__button {
   width: 4px;
-  height: 300px;
+  height: 256px;
   background-color: #666666;
   border: none;
   border-radius: 2px;
   padding: 0;
   position: absolute;
   z-index: 30;
-  left: 165px;
+  left: 170px;
   outline: none;
 
   @media (min-width: $tablet-width) {
-    height: 616px;
-    left: 389px;
+    height: 511px;
+    left: 391px;
   }
 
   @media (min-width: $desktop-width) {
-    height: 562px;
-    left: 1160px;
+    height: 512px;
+    left: 1048px;
+    bottom: 165px;
   }
 }
 
@@ -200,7 +220,7 @@
   stroke: #666666;
   color: #666666;
   position: absolute;
-  top: 120px;
+  top: 105px;
   left: -18px;
 
   @media (min-width: $tablet-width) {
@@ -213,6 +233,10 @@
   overflow: hidden;
   width: 50%;
   text-align: left;
+
+  @media (min-width: $desktop-width) {
+    margin-left: -1px;
+  }
 }
 
 .demonstrating-example__picture {
@@ -224,7 +248,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    transform: translateX(40%);
+    transform: translateX(50%);
   }
 }
 
@@ -258,17 +282,21 @@
   position: relative;
   flex-direction: column;
   width: 124px;
-  margin: 0;
+  margin: 2px;
   border: 1px solid #cdcdcd;
   border-radius: 5px;
-  padding: 13px 20px;
+  padding: 11px 10px 0;
   padding-bottom: 0;
 
   @media (min-width: $tablet-width) {
     font-size: 30px;
     line-height: 37px;
     padding-bottom: 4px;
-    width: 162px;
+    width: 145px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 141px;
   }
 }
 
