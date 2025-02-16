@@ -5,24 +5,24 @@
   width: 100%;
 
   @media (min-width: $tablet-width) {
-    margin-top: 70px;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: 1440px;
+    margin-top: 55px;
   }
 }
 
 .page-footer--catalog {
   background-color: #f2f2f2;
   width: 100%;
+  margin-top: -4px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: -2px;
+    padding-top: 76px;
+  }
 
   @media (min-width: $desktop-width) {
-    margin-top: -68px;
-    width: 1440px;
-    margin-left: 60px;
-    padding: 3px;
     height: 169px;
+    margin-top: 72px;
+    background-color: #f2f2f2;
   }
 }
 
@@ -32,20 +32,24 @@
 
 .page-footer__logo--catalog {
   margin-left: -63px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: -10px;
+  }
 }
 
 .page-footer__bottom-block {
-  padding: 40px 20px;
+  padding: 22px 20px;
 
   @media (min-width: $tablet-width) {
-    padding: 60px 30px;
+    padding: 54px 20px;
     display: flex;
     justify-content: space-between;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 72px 80px;
-    margin-top: 74px;
+    padding: 8px 75px;
+    margin-top: 6px;
   }
 }
 
@@ -57,6 +61,7 @@
   list-style: none;
   margin: -21px;
   padding: 0;
+  overflow: hidden;
 
   @media (min-width: $tablet-width) {
     width: 100%;
@@ -68,10 +73,6 @@
 
   @media (min-width: $desktop-width) {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 142px;
-    margin-left: 1px;
   }
 }
 
@@ -90,7 +91,13 @@
 
   @media (min-width: $desktop-width) {
     gap: 24px;
-    margin-left: 130px;
+    margin-left: 20px;
+  }
+}
+
+.page-footer__social--catalog {
+  @media (min-width: $tablet-width) {
+    margin-left: 19px;
   }
 }
 
@@ -101,7 +108,7 @@
 
 .page-footer__item {
   margin: 0 auto;
-  padding: 18px 0;
+  padding: 19px 7px;
   border-bottom: 1px solid #d9d9d9;
   width: 100%;
 
@@ -142,6 +149,16 @@
   }
 }
 
+.page-footer__developer--catalog {
+  @media (min-width: $tablet-width) {
+    margin-left: 39px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 92px;
+  }
+}
+
 .page-footer__developer-link {
   fill: #666666;
   color: $base-color-text;
@@ -171,7 +188,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 89px;
+    margin-left: 26px;
   }
 }
 

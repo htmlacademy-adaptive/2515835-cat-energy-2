@@ -5,7 +5,7 @@
   text-decoration: none;
   color: $button-color-text;
   background-color: $button-background;
-  display: inline-block;
+  display: block;
   border: none;
 }
 
@@ -32,7 +32,7 @@
   margin-top: -11px;
 
   @media (min-width: $tablet-width) {
-    margin-top: -34px;
+    margin-top: -32px;
   }
 }
 

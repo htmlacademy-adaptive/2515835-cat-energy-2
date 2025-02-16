@@ -7,7 +7,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-bottom: 60px;
+    max-width: calc(1300px - 40px* 2);
+    margin: 0 auto 72px 109px;
   }
 }
 
@@ -22,14 +23,12 @@
 
   @media (min-width: $tablet-width) {
     padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 0;
+    padding-top: 8px;
+    padding-left: 26px;
   }
 
   @media (min-width: $desktop-width) {
-    padding-right: 150px;
-    padding-left: 170px;
-    padding-top: 82px;
+    padding-left: 0;
     grid-gap: 1px;
     justify-items: center;
   }
@@ -159,12 +158,24 @@
 
   @media (min-width: $desktop-width) {
     margin-top: 70px;
-    width: 450px;
+    width: 457px;
   }
 }
 
 .product-groups__link-text {
-  margin-bottom: 25px;
+  margin-bottom: 21px;
+  margin-top: 25px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: -6px;
+    margin-left: 29px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: -35px;
+    margin-bottom: 53px;
+    margin-left: 31px;
+  }
 }
 
 .product-groups__list {
@@ -175,6 +186,7 @@
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;
+    gap: 83px;
   }
 }
 
@@ -186,6 +198,14 @@
   position: relative;
   text-transform: uppercase;
   text-decoration: none;
+  margin-left: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29.64px;
+  }
 }
 
 .product-groups__link::after {
@@ -194,10 +214,20 @@
   height: 12px;
   position: absolute;
   background-image: url("../../icons/stack.svg#right-arrow");
-  top: 25%;
+  top: 44%;
   margin-left: 100px;
   background-repeat: no-repeat;
   background-position: -11px center;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 162px;
+    top: 1px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 169px;
+    top: -54%;
+  }
 }
 
 .product-groups__link:hover::after {
@@ -210,7 +240,7 @@
   margin-bottom: 22px;
   background-color: #f2f2f2;
   margin-top: 3px;
-  margin-left: 3px;
+  margin-left: -7px;
 
   @media (min-width: $tablet-width) {
     min-height: 372px;
@@ -218,11 +248,13 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-right: 23px;
-    margin-left: 4px;
-    gap: 50px;
-    min-height: 374px;
-    margin-top: -77px;
+    padding: 1px 3px;
+  }
+}
+
+.product-groups__item--slim {
+  @media (min-width: $desktop-width) {
+    padding: 1px;
   }
 }
 
@@ -230,7 +262,8 @@
   border-bottom: 1px solid #e6e6e6;
   background-color: #f2f2f2;
   position: relative;
-  padding: 21px 33px 18px 20px;
+  padding: 20px 2px 9px 19px;
+  margin-bottom: -8px;
 
   @media (min-width: $tablet-width) {
     padding: 75px 63px 53px 52px;
