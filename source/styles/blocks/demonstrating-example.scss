@@ -24,15 +24,15 @@
 }
 
 .demonstrating-example__wrapper {
-  padding: 25px 20px 38px;
+  padding: 3px 27px 38px;
 
   @media (min-width: $tablet-width) {
-    padding: 45px 30px 101px;
+    padding: 38px 34px 101px;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 69px 110px 0;
-    padding-top: 0;
+    padding: 0 118px;
+    margin-top: -15px;
   }
 }
 
@@ -48,7 +48,7 @@
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
-    margin-bottom: 54px;
+    margin-bottom: 58px;
     padding: 2px;
   }
 
@@ -78,7 +78,7 @@
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 55px;
+    margin-bottom: 53px;
     min-width: 719px;
   }
 
@@ -138,7 +138,7 @@
 
   @media (min-width: $tablet-width) {
     gap: 43px;
-    margin: -1px 2px -1px -6px;
+    margin: -1px 2px -1px -2px;
   }
 
   @media (min-width: $desktop-width) {
@@ -163,7 +163,7 @@
   @media (min-width: $tablet-width) {
     justify-content: flex-end;
     gap: 8px;
-    margin: 3px -23px;
+    margin: 3px -20px;
     padding-top: 11px;
   }
 

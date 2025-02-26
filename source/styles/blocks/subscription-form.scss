@@ -6,7 +6,7 @@
 }
 
 .subscription-form__wrapper {
-  padding: 45px 20px;
+  padding: 45px 29px;
 
   @media (min-width: $tablet-width) {
     padding: 112px 69px;
@@ -29,13 +29,13 @@
     margin-bottom: 65px;
     font-size: 32px;
     line-height: 32px;
-    margin-left: -287px;
+    margin-left: -276px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: 40px;
     line-height: 40px;
-    margin: 4px auto 81px -493px;
+    margin: 5px auto 81px -486px;
   }
 }
 
@@ -74,13 +74,12 @@
   @media (min-width: $tablet-width) {
     flex-direction: row;
     gap: 0;
-    margin-left: -9px;
+    margin-left: -1px;
   }
 
   @media (min-width: $desktop-width) {
     width: 752px;
-    margin: 24px auto;
-    margin-left: 225px;
+    margin: 24px auto 24px 234px;
   }
 }
 
