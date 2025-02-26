@@ -5,12 +5,11 @@
   text-transform: uppercase;
   color: $base-color-text-black;
   margin: 0 auto;
-  width: 100%;
 
   @media (min-width: $tablet-width) {
     font-size: 18px;
     line-height: 24px;
-    padding-top: 10px;
+    padding-top: 5px;
   }
 
   @media (min-width: $desktop-width) {
@@ -25,10 +24,10 @@
   text-transform: uppercase;
   padding: 0;
   margin: 0;
-  width: $mobile-width-only;
   position: absolute;
   z-index: 10;
   background-color: #ffffff;
+  width: 100%;
 
   @media (min-width: $tablet-width) {
     position: static;
@@ -87,6 +86,10 @@
   opacity: 0.3;
 }
 
+.main-nav--cross {
+  display: none;
+}
+
 .main-nav__item--active::after {
   @media (min-width: $tablet-width) {
     content: "";
@@ -95,7 +98,7 @@
     background-color: $button-background;
     position: absolute;
     left: 0;
-    top: 32px;
+    top: 36px;
   }
 
   @media (min-width: $desktop-width) {

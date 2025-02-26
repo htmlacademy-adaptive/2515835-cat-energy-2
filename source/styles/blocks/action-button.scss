@@ -5,7 +5,7 @@
   text-decoration: none;
   color: $button-color-text;
   background-color: $button-background;
-  display: inline-block;
+  display: block;
   border: none;
 }
 
@@ -23,13 +23,22 @@
 }
 
 .action-button--small {
-  font-size: 16px;
   line-height: 20px;
 }
 
 .action-button--grey {
   background-color: #f2f2f2;
   color: #444444;
+  margin-top: -11px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: -32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: -32px;
+    margin-left: -32px;
+  }
 }
 
 .action-button--grey:hover {
